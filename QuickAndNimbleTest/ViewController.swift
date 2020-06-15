@@ -7,12 +7,18 @@
 //
 
 import UIKit
+import SubFramework
+
 
 class ViewController: UIViewController {
 
 	override func viewDidLoad() {
 		super.viewDidLoad()
 		// Do any additional setup after loading the view.
+		
+		
+		let a = SampleStruct()
+		a.samplePrint()
 	}
 
 
